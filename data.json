@@ -1,0 +1,55 @@
+{
+  "members": [
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "name": "thiago",
+      "email": "melo.thiagoh@gmail.com",
+      "birth": 578448000000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "87",
+      "height": "188"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "name": "Paula",
+      "email": "melo.thiagoh@gmail.com",
+      "birth": -473385600000,
+      "gender": "F",
+      "blood": "O-",
+      "weight": "71",
+      "height": "172"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 8,
+      "avatar_url": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "name": "Roberto Silva e Santos",
+      "birth": 583545600000,
+      "gender": "M",
+      "services": "Runner",
+      "created_at": 1593458976554
+    },
+    {
+      "id": 9,
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "Roberta Lemos",
+      "birth": 583459200000,
+      "gender": "F",
+      "services": "cardio, crossfit, dance",
+      "created_at": 1593459026621
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1560241804-02b7b1bc9d55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Henrique Melo",
+      "birth": -20822400000,
+      "gender": "M",
+      "services": "Crossfit",
+      "created_at": 1593714538195
+    }
+  ]
+}
