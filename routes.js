@@ -7,10 +7,7 @@ routes.get('/', function(req, res) {
     return res.redirect('/instructors')
 })
 
-//GET: receber Resource
-//POST: criar e salvar novo Resource como dados enviados
-//PUT: Atualizar Resource
-//Delete: deletar
+
 
 // ############################## -INSTRUCTORS-  ##################################
 routes.get('/instructors', instructors.index)

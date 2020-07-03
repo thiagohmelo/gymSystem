@@ -1,4 +1,4 @@
-//LOGICA PARA pagina fiar marcada no menu
+//page logic mark
 
 const currentPage = location.pathname
 const menuItens = document.querySelectorAll('header .links a')
