@@ -12,7 +12,12 @@ module.exports = {
         
     },
     create(req, res) {
-        return res.render('members/create')
+
+        member.instructorsSelectOptions(function(options) {
+            return res.render('members/create', { instructorOptions: options })
+        })
+
+        
     },
     show(req, res) {
         member.find(req.params.id, function(member) {
@@ -42,12 +47,11 @@ module.exports = {
     edit(req, res) {
         member.find(req.params.id, function(member) {
             if(!member) return res.send('member not found!')
-
             member.birth = date(member.birth).iso
 
-            
-            return res.render('members/edit', {member})
-
+            member.instructorsSelectOptions(function(options) {
+            return res.render('members/edit', { member, instructorOptions: options })
+            })
         })
     },
     put(req, res) {
